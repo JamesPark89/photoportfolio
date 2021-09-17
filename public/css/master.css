@@ -1,0 +1,31 @@
+#bgimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  max-width: 100%;
+  z-index: -999;
+}
+.nav-link {
+  font-size: 24px;
+  color: white;
+  margin: -5px 30px 0 30px;
+}
+/* public/css/master.css */
+.navbar-brand {
+  width: 200px;
+}
+.navbar-brand img {
+  width: 100%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.navbar {
+  margin-left: 10rem;
+}
+.navbar-brand {
+  font-size: 30px;
+  color: black;
+}
