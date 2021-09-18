@@ -5,7 +5,7 @@ var router = express.Router();
 
 // Home
 router.get('/', function(req, res){
-  res.render('home/about');
+  res.render('home/home');
 });
 router.get('/photo', function(req, res){
   res.render('home/photo');
